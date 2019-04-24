@@ -1,0 +1,12 @@
+<BookInformation>
+  <title>Book Title 1</title>
+  <author>Book Author 1</author>
+  <publisher>Book Publisher 1</publisher>
+  <isbn>Book isbn 1</isbn>
+
+  <title>Book Title 2</title>
+  <author>Book Author 2</author>
+  <publisher>Book Publisher 2</publisher>
+  <isbn>Book isbn 2</isbn>
+
+</BookInformation>
