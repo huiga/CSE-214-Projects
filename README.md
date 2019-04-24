@@ -1,5 +1,4 @@
-# CSE-214-Projects
-CSE 214 Class projects 
+# CSE-214-Projects 
 Solo java data structure projects in CSE214 of SBU. Work in progress; move projects to come.
 # HW1 
 Implements a database for baseball card collectors to keep track and manage their collections.
