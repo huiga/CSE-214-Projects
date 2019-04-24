@@ -6,11 +6,22 @@
  * CSE214
  * Recitation 6: Juan Tarquino
  */
+
 package hw2_214;
+
 import java.io.IOException;
 import java.util.Scanner;
+
+/**
+ * Main class for running the program of a doubly linked list of concert performances.
+ * Creates a user-driven interface to interact with nodes and manipulate the doubly linked list.
+ * 
+ * 
+ * @author Eddie Xu 112206686
+ *
+ */
 public class PerformanceScheduler {
-	public static void main(String[]args) throws IOException {
+	public static void main(String[]args) throws Exception {
 		System.out.println("A) Add to end\nB) Move current node backward\nC) Display current node\nD) Display all nodes\nF) Move current node forward\nI) Insert after current node\nJ) Jump to position\nR) Remove current node\nQ) Exit");
 		Scanner scan = new Scanner(System.in);
 		String cursor = "->";
@@ -72,7 +83,7 @@ public class PerformanceScheduler {
 					System.out.print("\nNew performance "+namePerformance2+" is added after the current performance.\n");
 					break;
 				case "j":
-					System.out.print("\nEnter the position:");
+					System.out.print("\nEnter the position: ");
 					int position = scan.nextInt();
 					if(performances.jumpToPosition(position))
 						System.out.print("\nCursor has been moved to position "+position+".\n");				
