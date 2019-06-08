@@ -1,5 +1,7 @@
 # CSE-214-Projects 
 Solo java data structure projects in CSE214 of SBU.
+# Connect Four
+A simple 2-player connect four game using a printed gameboard and accepts user input. 
 # HW1 
 Implements a database for baseball card collectors to keep track and manage their collections.
 # HW2
