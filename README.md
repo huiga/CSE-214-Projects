@@ -15,4 +15,4 @@ Recursively crawls HTML files to construct a ternary tree representing the follo
 # HW6 - Hashtables
 Models a library and maps books using a hashtable. Program connects XML files to an online databse (http://www3.cs.stonybrook.edu/~cse214/hw/hw6/) and parses it for information about the books.
 # HW7 - Graphs
-Implements a shortest-path algorithm to find the shortest distance between to cities using a modified package of the Google grocoding api. Models an airport system with flights and connections to different cities based on the latitude and longitude of the given city.
+Implements a shortest-path algorithm to find the shortest distance between to cities using a modified package of the Google geocoding api. Models an airport system with flights and connections to different cities based on the latitude and longitude of the given city.
